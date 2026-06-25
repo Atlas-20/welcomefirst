@@ -110,8 +110,10 @@
 
 const P1kastring = JSON.stringify(p1)
 console.log(P1kastring);
+//changing Non-primitve to primitve 
+// Or Object to string 
 
-let p2 = JSON.parse(P1kastring)
+let p2 = JSON.parse(P1kastring) //String to objects or primitve to Non-primitive 
 p2.Name= "Ranjan"
 p2.Address.state= "maharashter"
 
@@ -119,3 +121,4 @@ console.log(p1)
 console.log(p2)
                      
                 // finally the code run
+                
