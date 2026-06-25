@@ -20,4 +20,4 @@ console.log(user);
 //Deleting
  
 delete  user.email;
-console.log(user)
+console.log(user)// email has been deleted 
