@@ -15,4 +15,32 @@ grid-template-columns: repeat(5, 100px);
 }
 .box{
     background-color:aqua;
+    color: white;
+    font-size:5em;
+    
+                            /* Now when we see in the devtool go to computer tick and then search display it will show span as a block element 
+                              while :span is a inline element why? 
+                                Because when we applay display:flex or display: grid; //uske andar jitne bhi item hote hai wo sab block ban jate hai ; */
+                                
+                                /* So before that there was no use of using width:  but because of display: grid;>>> it became block 
+                                and now width can be given to it  */
+   width:80px;
+   /* give it height too  */
+   height: 80px;
+}
+/* *{
+    box-sizing:border-box;
+} */
+
+
+.box-2{
+    background-color:azure;
+    height:90px;
+    width: 90px;
+
+}
+.box-3{
+    background-color:beige;
+    height: 100px;
+    width: 100px;
 }
