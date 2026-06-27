@@ -73,4 +73,5 @@ Grid-column-end: //eg. 3;
         grid-area: footer;
 
     }
-    
+                                               ++++// flexbox can behave very strange if you use it without having good knowledge of it 
+                                                 but that same thing is not with the grid   . 

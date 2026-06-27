@@ -37,10 +37,16 @@ grid-template-columns: repeat(5, 100px);
     background-color:azure;
     height:90px;
     width: 90px;
+     
+    grid-area: 2/2/4/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 .box-3{
     background-color:beige;
     height: 100px;
     width: 100px;
-}
+}  

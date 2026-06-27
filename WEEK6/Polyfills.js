@@ -1,5 +1,5 @@
-What is a polyfill??
-  Its a piece of code 
+// What is a polyfill??
+//   Its a piece of code that heps to run or new codes on older devices 
 
 
 
