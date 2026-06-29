@@ -26,5 +26,6 @@ const maths = {
     }
 }
 console.log(maths);
-
+console.log(maths.add(2,3));  // Accssing the function inside the object 
+console.log(maths.square(2));
  
