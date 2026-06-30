@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+img{
+  max-width :100%;;
+}
+.mainbox {
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-rows: auto auto auto;
+    /* Even this auto auto auto can be removed and still the working will be same 
+    because the browser defines this by itself it is that much tha amount are there in the box  */
+    grid-gap : 1rem;
+    margin-top:5rem;
+
+}
+.box{
+    border:1px solid #dddd;
+    border-radius:2px;
+    padding:2rem;
+    text-align: center;
+/* But here at this point we will see that due to unevenly text inside the boxes the alignment of the 
+photos are also not that good so now will will do something to make -pics align- text align - and heading align 
+-and look everything good  */
+   /* define display: grid in the box too  */
+   display: grid;
+   grid-template-rows: subgrid;
+   /* we will use gid template-rows: auto auto auto (in .mainbox  because ther are 3 parts indies the boxes too )*/
+    grid-row:1/4;
+}
