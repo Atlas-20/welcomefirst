@@ -22,7 +22,7 @@ img{
 }
 .box{
     border:1px solid #dddd;
-    border-radius:2px;
+    border: radius 23px;
     padding:2rem;
     text-align: center;
 /* But here at this point we will see that due to unevenly text inside the boxes the alignment of the 
