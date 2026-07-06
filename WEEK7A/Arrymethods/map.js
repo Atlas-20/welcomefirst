@@ -40,8 +40,17 @@ const persons = [
 const fullNameList = persons.map(getFullName); // can be writeeen as persons.map(function getFullName(item)
                                                //  {return [item.firstname,item.lastname];}));
 
-function getFullName(item) {
+function getFullName(item,indexisa, aljfkl) { //i just changed the names to show that the names of the parameters can be anything.
+                                              //  The first parameter is always the current element, 
+                                              // the second parameter is always the index of the current element, 
+                                              // and the third parameter is always the array that map() was called upon.
+  console.log(item, indexisa, aljfkl);
   return [item.firstname,item.lastname];//.join(" ");
 }
-console.log(persons.map(getFullName));
+// console.log(persons.map(getFullName));
 console.log(fullNameList);
+// console.log(indexisa);
+
+
+
+

@@ -127,3 +127,18 @@ Array.prototype.myMap = function (callback) {
 
                     //   Jab bhi polyfills likhna hai > Pehle Real signature ko samjho 
                     //(means jis function ka likhna hai uske behaviour ko samjho) 
+
+
+                    // How to know whether the function returns something or not?
+
+                    // So whatever the function is re
+                    // example 
+                     const arr = [1, 2, 3, 4, 5];
+                      
+                     const returnValue = arr.forEach(function( value, index){
+                      console.log(`value at index ${index} is ${value}`); // the backtick is used to create a template literal,
+                                                                          //  which allows for embedding expressions inside string literals.
+                     })
+                    console.log(returnValue) 
+                     
+                    // so here what we found that return value cannot be stored in a variable and it will be undefined because forEach does not return anything.
