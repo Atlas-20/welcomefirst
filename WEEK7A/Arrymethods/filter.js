@@ -58,5 +58,14 @@
 
 
 //   Question: make a months array and filter out the months which have M in them or not 
-     return month.includes("m") || month.includes("M");
+    //  return month.includes("m") || month.includes("M");
      // return this and it will give which has m or M in them. 
+
+     const months2 = ["january", "february", "march", "april"]
+
+     const mmonths = months2.filter((month ,index) => {
+      console.log( if (index % 2 === 0) 
+        {return month});
+      return month.includes("m") || month.includes("M");
+     })
+     console.log(mmonths);
