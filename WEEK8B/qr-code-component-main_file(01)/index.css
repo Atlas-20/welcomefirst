@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    /* outline: solid red 1px; */
+}
+
+/* html, body {
+    margin: 0;
+    min-height: 100%;
+    background-color:hsl(0, 0%, 100%)
+} */
+
+body {
+    background-color:hsl(174, 45%, 76%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(20, 20, 20);
+    text-align: center;
+
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card {
+    height: 470px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    /* padding-bottom:3px; */
+    overflow:hidden;
+}
+
+img{
+
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius:1em;
+  padding:12px;
+
+}
+ div p{
+   /* padding-left:5px;
+    padding-right:5px; */
+    /* margin-bottom:12px; */
+    padding:0px 7px;
+    /* font-weight:2px;  Actually no need of this property  */
+    font-size:10px;
+}
+div h4{
+    /* padding-left:5px;
+    padding-right:5px; */
+    padding: 0px 21px;
+    
+}
